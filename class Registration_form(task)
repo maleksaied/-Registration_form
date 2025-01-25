@@ -1,0 +1,11 @@
+class Registration_form:
+    def __init__ (self,name,age,number):
+       self.name=name
+       self.age=age
+       self.number=number
+    def display_info(self):
+        print("welcome",{self.name})
+
+name=input("enter name ")    
+age=input("enter age ")
+number=int(input("enter number "))
